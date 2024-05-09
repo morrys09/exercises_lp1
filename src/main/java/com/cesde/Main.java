@@ -2,16 +2,20 @@ package com.cesde;
 
 public class Main {
     public static void main(String[] args) {
+        
         Ejercicios ejercicios = new Ejercicios();
 
-        System.out.println("Ejercicio 1");
-        System.out.println(ejercicios.ejercicio1(10, 10));
-        System.out.println("-------------------------------------------------");
-
+               
+              
+         System.out.println("Ejercicio 1");
+         System.out.println(ejercicios.ejercicio1(10, 5));
+        System.out.println("los dos numeros son iguales");
+         
         System.out.println("Ejercicio 2");
         System.out.println(ejercicios.ejercicio2(3.0));
         System.out.println("-------------------------------------------------");
 
+       
         System.out.println("Ejercicio 3");
         System.out.println(ejercicios.ejercicio3(7000));
         System.out.println("-------------------------------------------------");
